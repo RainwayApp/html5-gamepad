@@ -94,6 +94,7 @@ export default class SingleGamepad {
 }
 
 function isCompatible(mapping: RainwayGamepad.Mapping, id: GamepadID, browser: UserAgent) {
+    console.log(mapping)
     for (var i = 0; i < mapping.supported.length; i++) {
         var supported = mapping.supported[i]
 
