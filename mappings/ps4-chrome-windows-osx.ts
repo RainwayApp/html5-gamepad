@@ -1,4 +1,4 @@
-{
+export default {
   "axes": {
     "dpad x": {
       "index": 6
@@ -12,14 +12,11 @@
     "left stick y": {
       "index": 1
     },
-    "left trigger": {
+    "right stick x": {
       "index": 2
     },
-    "right stick x": {
-      "index": 3
-    },
     "right stick y": {
-      "index": 4
+      "index": 3
     },
     "right trigger": {
       "index": 5
@@ -33,32 +30,28 @@
       "index": 1
     },
     "back": {
-      "index": 6
+      "index": 8
     },
     "dpad down": {
-      "axis": 7,
-      "direction": 1
+      "index": 13
     },
     "dpad left": {
-      "axis": 6,
-      "direction": -1
+      "index": 14
     },
     "dpad right": {
-      "axis": 6,
-      "direction": 1
+      "index": 15
     },
     "dpad up": {
-      "axis": 7,
-      "direction": -1
+      "index": 12
     },
     "home": {
-      "index": 8
+      "index": 16
     },
     "left shoulder": {
       "index": 4
     },
     "left stick": {
-      "index": 9
+      "index": 10
     },
     "left stick down": {
       "axis": 1,
@@ -77,37 +70,35 @@
       "direction": -1
     },
     "left trigger": {
-      "axis": 2,
-      "direction": 1
+      "index": 6
     },
     "right shoulder": {
       "index": 5
     },
     "right stick": {
-      "index": 10
+      "index": 11
     },
     "right stick down": {
-      "axis": 4,
+      "axis": 3,
       "direction": 1
     },
     "right stick left": {
-      "axis": 3,
+      "axis": 2,
       "direction": -1
     },
     "right stick right": {
-      "axis": 3,
+      "axis": 2,
       "direction": 1
     },
     "right stick up": {
-      "axis": 4,
+      "axis": 3,
       "direction": -1
     },
     "right trigger": {
-      "axis": 5,
-      "direction": 1
+      "index": 7
     },
     "start": {
-      "index": 7
+      "index": 9
     },
     "x": {
       "index": 2
@@ -116,12 +107,17 @@
       "index": 3
     }
   },
-  "name": "Logitech F310 (XInput) Firefox Linux",
+  "name": "PS4 Chrome Windows/OSX",
   "supported": [
     {
-      "browser": "Firefox",
-      "id": "046d-c21d-Logitech Gamepad F310",
-      "os": "Linux"
+      "browser": "Chrome",
+      "id": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
+      "os": "Windows NT"
+    },
+    {
+      "browser": "Chrome",
+      "id": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
+      "os": "Mac OS X"
     }
   ]
 }

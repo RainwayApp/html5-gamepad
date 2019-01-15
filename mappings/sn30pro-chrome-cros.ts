@@ -1,4 +1,4 @@
-{
+export default {
   "axes": {
     "dpad x": {
       "index": 6
@@ -12,17 +12,17 @@
     "left stick y": {
       "index": 1
     },
-    "left trigger": {
+    "right stick x": {
       "index": 2
     },
-    "right stick x": {
+    "right stick y": {
       "index": 3
     },
-    "right stick y": {
-      "index": 4
+    "left trigger": {
+      "buttonAnalog": 8
     },
     "right trigger": {
-      "index": 5
+      "buttonAnalog": 9
     }
   },
   "buttons": {
@@ -30,85 +30,93 @@
       "index": 1
     },
     "b": {
-      "index": 2
+      "index": 0
     },
     "back": {
-      "index": 8
-    },
-    "dpad down": {
-      "index": 13
-    },
-    "dpad left": {
-      "index": 14
-    },
-    "dpad right": {
-      "index": 15
-    },
-    "dpad up": {
-      "index": 12
-    },
-    "left shoulder": {
-      "index": 4
-    },
-    "left stick": {
       "index": 10
     },
+    "dpad down": {
+      "axis": 6,
+      "direction": 1
+    },
+    "dpad left": {
+      "axis": 7,
+      "direction": -1
+    },
+    "dpad right": {
+      "axis": 7,
+      "direction": 1
+    },
+    "dpad up": {
+      "axis": 6,
+      "direction": -1
+    },
+    "home": {
+      "index": 2
+    },
+    "left shoulder": {
+      "index": 6
+    },
+    "left stick": {
+      "index": 13
+    },
     "left stick down": {
-      "axis": 2,
+      "axis": 1,
       "direction": 1
     },
     "left stick left": {
-      "axis": 1,
+      "axis": 0,
       "direction": -1
     },
     "left stick right": {
-      "axis": 1,
+      "axis": 0,
       "direction": 1
     },
     "left stick up": {
-      "axis": 2,
+      "axis": 1,
       "direction": -1
     },
     "left trigger": {
-      "index": 6
+      "index": 8
     },
     "right shoulder": {
-      "index": 5
+      "index": 7
     },
     "right stick": {
-      "index": 11
+      "index": 14
     },
     "right stick down": {
-      "axis": 4,
+      "axis": 3,
       "direction": 1
     },
     "right stick left": {
+      "axis": 2,
+      "direction": -1
+    },
+    "right stick right": {
+      "axis": 2,
+      "direction": 1
+    },
+    "right stick up": {
       "axis": 3,
       "direction": -1
     },
-    "right stick up": {
-      "axis": 4,
-      "direction": -1
-    },
-    "right trigger": {
-      "index": 7
-    },
     "start": {
-      "index": 9
+      "index": 11
     },
     "x": {
-      "index": 0
+      "index": 4
     },
     "y": {
       "index": 3
     }
   },
-  "name": "Logitech F310 (DirectInput) Firefox OSX",
+  "name": "8Bitdo SN30 Pro CrOS",
   "supported": [
     {
-      "browser": "Firefox",
-      "id": "46d-c216-Logitech Dual Action",
-      "os": "Mac OS X"
+      "browser": "Chrome",
+      "id": "8Bitdo SN30 Pro (Vendor: 2dc8 Product: 6101)",
+      "os": "CrOS"
     }
   ]
 }

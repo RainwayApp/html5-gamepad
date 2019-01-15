@@ -1,10 +1,10 @@
-{
+export default {
   "axes": {
     "dpad x": {
-      "index": 4
+      "index": 6
     },
     "dpad y": {
-      "index": 5
+      "index": 7
     },
     "left stick x": {
       "index": 0
@@ -12,11 +12,17 @@
     "left stick y": {
       "index": 1
     },
+    "left trigger": {
+      "index": 3
+    },
     "right stick x": {
       "index": 2
     },
     "right stick y": {
-      "index": 3
+      "index": 5
+    },
+    "right trigger": {
+      "index": 4
     }
   },
   "buttons": {
@@ -30,20 +36,23 @@
       "index": 8
     },
     "dpad down": {
-      "axis": 5,
+      "axis": 7,
       "direction": 1
     },
     "dpad left": {
-      "axis": 4,
+      "axis": 6,
       "direction": -1
     },
     "dpad right": {
-      "axis": 4,
+      "axis": 6,
       "direction": 1
     },
     "dpad up": {
-      "axis": 5,
+      "axis": 7,
       "direction": -1
+    },
+    "home": {
+      "index": 12
     },
     "left shoulder": {
       "index": 4
@@ -77,7 +86,7 @@
       "index": 11
     },
     "right stick down": {
-      "axis": 3,
+      "axis": 5,
       "direction": 1
     },
     "right stick left": {
@@ -89,7 +98,7 @@
       "direction": 1
     },
     "right stick up": {
-      "axis": 3,
+      "axis": 5,
       "direction": -1
     },
     "right trigger": {
@@ -105,16 +114,11 @@
       "index": 3
     }
   },
-  "name": "Logitech F310 (DirectInput) Chrome/Firefox Linux",
+  "name": "PS4 Firefox Linux",
   "supported": [
     {
-      "browser": "Chrome",
-      "id": "Logitech Logitech Dual Action (Vendor: 046d Product: c216)",
-      "os": "Linux"
-    },
-    {
       "browser": "Firefox",
-      "id": "046d-c216-Logitech Logitech Dual Action",
+      "id": "054c-05c4-Sony Computer Entertainment Wireless Controller",
       "os": "Linux"
     }
   ]

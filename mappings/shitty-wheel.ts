@@ -1,4 +1,4 @@
-{
+export default {
     "axes": {
         "dpad x": {
             "index": 3

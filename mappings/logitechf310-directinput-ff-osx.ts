@@ -1,4 +1,4 @@
-{
+export default {
   "axes": {
     "dpad x": {
       "index": 6
@@ -12,25 +12,25 @@
     "left stick y": {
       "index": 1
     },
-    "right stick x": {
+    "left trigger": {
       "index": 2
     },
-    "right stick y": {
+    "right stick x": {
       "index": 3
     },
-    "left trigger": {
-      "buttonAnalog": 6
+    "right stick y": {
+      "index": 4
     },
     "right trigger": {
-      "buttonAnalog": 7
+      "index": 5
     }
   },
   "buttons": {
     "a": {
-      "index": 0
+      "index": 1
     },
     "b": {
-      "index": 1
+      "index": 2
     },
     "back": {
       "index": 8
@@ -47,9 +47,6 @@
     "dpad up": {
       "index": 12
     },
-    "home": {
-      "index": 16
-    },
     "left shoulder": {
       "index": 4
     },
@@ -57,19 +54,19 @@
       "index": 10
     },
     "left stick down": {
-      "axis": 1,
+      "axis": 2,
       "direction": 1
     },
     "left stick left": {
-      "axis": 0,
+      "axis": 1,
       "direction": -1
     },
     "left stick right": {
-      "axis": 0,
+      "axis": 1,
       "direction": 1
     },
     "left stick up": {
-      "axis": 1,
+      "axis": 2,
       "direction": -1
     },
     "left trigger": {
@@ -82,42 +79,36 @@
       "index": 11
     },
     "right stick down": {
-      "axis": 3,
+      "axis": 4,
       "direction": 1
     },
     "right stick left": {
-      "axis": 2,
-      "direction": -1
-    },
-    "right stick right": {
-      "axis": 2,
-      "direction": 1
-    },
-    "right stick up": {
       "axis": 3,
       "direction": -1
+    },
+    "right stick up": {
+      "axis": 4,
+      "direction": -1
+    },
+    "right trigger": {
+      "index": 7
     },
     "start": {
       "index": 9
     },
     "x": {
-      "index": 2
+      "index": 0
     },
     "y": {
       "index": 3
     }
   },
-  "name": "Xbox 360 Chrome Windows/OSX",
+  "name": "Logitech F310 (DirectInput) Firefox OSX",
   "supported": [
     {
-      "browser": "Chrome",
-      "id": "Xbox 360 Controller (STANDARD GAMEPAD Vendor: 028e Product: 045e)",
+      "browser": "Firefox",
+      "id": "46d-c216-Logitech Dual Action",
       "os": "Mac OS X"
-    },
-    {
-      "browser": "Chrome",
-      "id": "Xbox 360 Controller (XInput STANDARD GAMEPAD)",
-      "os": "Windows NT"
     }
   ]
 }

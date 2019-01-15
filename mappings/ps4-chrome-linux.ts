@@ -1,16 +1,21 @@
-{
+export default {
   "axes": {
     "dpad x": {
-      "index": 6
+      "buttonPositive": 15,
+      "buttonNegative": 14
     },
     "dpad y": {
-      "index": 7
+      "buttonPositive": 13,
+      "buttonNegative": 12
     },
     "left stick x": {
       "index": 0
     },
     "left stick y": {
       "index": 1
+    },
+    "left trigger": {
+      "buttonPositive": 6
     },
     "right stick x": {
       "index": 2
@@ -19,7 +24,7 @@
       "index": 3
     },
     "right trigger": {
-      "index": 5
+      "buttonPositive": 7
     }
   },
   "buttons": {
@@ -107,17 +112,12 @@
       "index": 3
     }
   },
-  "name": "PS4 Chrome Windows/OSX",
+  "name": "PS4 Chrome Linux",
   "supported": [
     {
       "browser": "Chrome",
-      "id": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
-      "os": "Windows NT"
-    },
-    {
-      "browser": "Chrome",
-      "id": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
-      "os": "Mac OS X"
+      "id": "Sony Computer Entertainment Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
+      "os": "Linux"
     }
   ]
 }

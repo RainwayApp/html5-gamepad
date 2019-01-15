@@ -1,22 +1,28 @@
-{
+export default {
   "axes": {
+    "dpad x": {
+      "index": 6
+    },
+    "dpad y": {
+      "index": 7
+    },
     "left stick x": {
       "index": 0
     },
     "left stick y": {
       "index": 1
     },
-    "right stick x": {
+    "left trigger": {
       "index": 2
     },
-    "right stick y": {
+    "right stick x": {
       "index": 3
     },
-    "left trigger": {
-      "buttonAnalog": 6
+    "right stick y": {
+      "index": 4
     },
     "right trigger": {
-      "buttonAnalog": 7
+      "index": 5
     }
   },
   "buttons": {
@@ -27,28 +33,32 @@
       "index": 1
     },
     "back": {
-      "index": 8
+      "index": 6
     },
     "dpad down": {
-      "index": 13
+      "axis": 7,
+      "direction": 1
     },
     "dpad left": {
-      "index": 14
+      "axis": 6,
+      "direction": -1
     },
     "dpad right": {
-      "index": 15
+      "axis": 6,
+      "direction": 1
     },
     "dpad up": {
-      "index": 12
+      "axis": 7,
+      "direction": -1
     },
     "home": {
-      "index": 16
+      "index": 8
     },
     "left shoulder": {
       "index": 4
     },
     "left stick": {
-      "index": 10
+      "index": 9
     },
     "left stick down": {
       "axis": 1,
@@ -67,35 +77,37 @@
       "direction": -1
     },
     "left trigger": {
-      "index": 6
+      "axis": 2,
+      "direction": 1
     },
     "right shoulder": {
       "index": 5
     },
     "right stick": {
-      "index": 11
+      "index": 10
     },
     "right stick down": {
-      "axis": 3,
+      "axis": 4,
       "direction": 1
     },
     "right stick left": {
-      "axis": 2,
-      "direction": -1
-    },
-    "right stick right": {
-      "axis": 2,
-      "direction": 1
-    },
-    "right stick up": {
       "axis": 3,
       "direction": -1
     },
+    "right stick right": {
+      "axis": 3,
+      "direction": 1
+    },
+    "right stick up": {
+      "axis": 4,
+      "direction": -1
+    },
     "right trigger": {
-      "index": 7
+      "axis": 5,
+      "direction": 1
     },
     "start": {
-      "index": 9
+      "index": 7
     },
     "x": {
       "index": 2
@@ -104,27 +116,12 @@
       "index": 3
     }
   },
-  "name": "Xbox One Chrome OSX Linux",
+  "name": "Xbone Firefox Linux",
   "supported": [
     {
-      "browser": "Chrome",
-      "id": "©Microsoft Corporation Controller (STANDARD GAMEPAD Vendor: 045e Product: 028e)",
+      "browser": "Firefox",
+      "id": "045e-02d1-Microsoft X-Box One pad",
       "os": "Linux"
-    },
-    {
-      "browser": "Chrome",
-      "id": "Xbox One Controller (STANDARD GAMEPAD Vendor: 02d1 Product: 045e)",
-      "os": "Mac OS X"
-    },
-    {
-      "browser": "Chrome",
-      "id": "Xbox One Wired Controller (STANDARD GAMEPAD Vendor: 045e Product: 02d1)",
-      "os": "Mac OS X"
-    },
-    {
-      "browser": "Chrome",
-      "id": "Xbox One Wired Controller (STANDARD GAMEPAD Vendor: 045e Product: 02dd)",
-      "os": "Mac OS X"
     }
   ]
 }

@@ -1,6 +1,6 @@
-{
+export default {
   "axes": {
-    "dpad x": {
+    "dpad xx": {
       "index": 6
     },
     "dpad y": {
@@ -18,8 +18,11 @@
     "right stick y": {
       "index": 3
     },
+    "left trigger": {
+      "buttonAnalog": 6
+    },
     "right trigger": {
-      "index": 5
+      "buttonAnalog": 7
     }
   },
   "buttons": {
@@ -94,9 +97,6 @@
       "axis": 3,
       "direction": -1
     },
-    "right trigger": {
-      "index": 7
-    },
     "start": {
       "index": 9
     },
@@ -107,12 +107,17 @@
       "index": 3
     }
   },
-  "name": "Logitech F310 (XInput) Chrome Linux",
+  "name": "Xbox 360 Chrome Windows/OSX",
   "supported": [
     {
       "browser": "Chrome",
-      "id": "Logitech Gamepad F310 (STANDARD GAMEPAD Vendor: 046d Product: c21d)",
-      "os": "Linux"
+      "id": "Xbox 360 Controller (STANDARD GAMEPAD Vendor: 028e Product: 045e)",
+      "os": "Mac OS X"
+    },
+    {
+      "browser": "Chrome",
+      "id": "Xbox 360 Controller (XInput STANDARD GAMEPAD)",
+      "os": "Windows NT"
     }
   ]
 }

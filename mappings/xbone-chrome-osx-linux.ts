@@ -1,19 +1,10 @@
-{
+export default {
   "axes": {
-    "dpad x": {
-      "index": 6
-    },
-    "dpad y": {
-      "index": 7
-    },
     "left stick x": {
       "index": 0
     },
     "left stick y": {
       "index": 1
-    },
-    "left trigger": {
-      "index": 12
     },
     "right stick x": {
       "index": 2
@@ -21,39 +12,42 @@
     "right stick y": {
       "index": 3
     },
+    "left trigger": {
+      "buttonAnalog": 6
+    },
     "right trigger": {
-      "index": 13
+      "buttonAnalog": 7
     }
   },
   "buttons": {
     "a": {
-      "index": 14
-    },
-    "b": {
-      "index": 13
-    },
-    "back": {
       "index": 0
     },
+    "b": {
+      "index": 1
+    },
+    "back": {
+      "index": 8
+    },
     "dpad down": {
-      "index": 6
+      "index": 13
     },
     "dpad left": {
-      "index": 7
+      "index": 14
     },
     "dpad right": {
-      "index": 5
+      "index": 15
     },
     "dpad up": {
-      "index": 4
+      "index": 12
     },
     "home": {
       "index": 16
     },
-    "left stick": {
-      "index": 1
-    },
     "left shoulder": {
+      "index": 4
+    },
+    "left stick": {
       "index": 10
     },
     "left stick down": {
@@ -73,10 +67,13 @@
       "direction": -1
     },
     "left trigger": {
-      "index": 8
+      "index": 6
+    },
+    "right shoulder": {
+      "index": 5
     },
     "right stick": {
-      "index": 2
+      "index": 11
     },
     "right stick down": {
       "axis": 3,
@@ -95,27 +92,39 @@
       "direction": -1
     },
     "right trigger": {
-      "index": 9
-    },
-    "right shoulder": {
-      "index": 11
+      "index": 7
     },
     "start": {
-      "index": 3
+      "index": 9
     },
     "x": {
-      "index": 15
+      "index": 2
     },
     "y": {
-      "index": 12
+      "index": 3
     }
   },
-  "name": "054c-0268-Sony PLAYSTATION(R)3 Controller Firefox Linux",
+  "name": "Xbox One Chrome OSX Linux",
   "supported": [
     {
-      "browser": "Firefox",
-      "id": "054c-0268-Sony PLAYSTATION(R)3 Controller",
+      "browser": "Chrome",
+      "id": "©Microsoft Corporation Controller (STANDARD GAMEPAD Vendor: 045e Product: 028e)",
       "os": "Linux"
+    },
+    {
+      "browser": "Chrome",
+      "id": "Xbox One Controller (STANDARD GAMEPAD Vendor: 02d1 Product: 045e)",
+      "os": "Mac OS X"
+    },
+    {
+      "browser": "Chrome",
+      "id": "Xbox One Wired Controller (STANDARD GAMEPAD Vendor: 045e Product: 02d1)",
+      "os": "Mac OS X"
+    },
+    {
+      "browser": "Chrome",
+      "id": "Xbox One Wired Controller (STANDARD GAMEPAD Vendor: 045e Product: 02dd)",
+      "os": "Mac OS X"
     }
   ]
 }

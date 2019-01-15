@@ -1,4 +1,4 @@
-{
+export default {
   "axes": {
     "dpad x": {
       "index": 6
@@ -12,11 +12,14 @@
     "left stick y": {
       "index": 1
     },
-    "right stick x": {
+    "left trigger": {
       "index": 2
     },
-    "right stick y": {
+    "right stick x": {
       "index": 3
+    },
+    "right stick y": {
+      "index": 4
     },
     "right trigger": {
       "index": 5
@@ -24,31 +27,38 @@
   },
   "buttons": {
     "a": {
-      "index": 1
+      "index": 0
     },
     "b": {
-      "index": 2
+      "index": 1
     },
     "back": {
-      "index": 8
+      "index": 6
     },
     "dpad down": {
-      "index": 14
+      "axis": 7,
+      "direction": 1
     },
     "dpad left": {
-      "index": 15
+      "axis": 6,
+      "direction": -1
     },
     "dpad right": {
-      "index": 16
+      "axis": 6,
+      "direction": 1
     },
     "dpad up": {
-      "index": 13
+      "axis": 7,
+      "direction": -1
+    },
+    "home": {
+      "index": 8
     },
     "left shoulder": {
       "index": 4
     },
     "left stick": {
-      "index": 10
+      "index": 9
     },
     "left stick down": {
       "axis": 1,
@@ -67,49 +77,51 @@
       "direction": -1
     },
     "left trigger": {
-      "index": 6
+      "axis": 2,
+      "direction": 1
     },
     "right shoulder": {
       "index": 5
     },
     "right stick": {
-      "index": 11
+      "index": 10
     },
     "right stick down": {
-      "axis": 3,
+      "axis": 4,
       "direction": 1
     },
     "right stick left": {
-      "axis": 2,
-      "direction": -1
-    },
-    "right stick right": {
-      "axis": 2,
-      "direction": 1
-    },
-    "right stick up": {
       "axis": 3,
       "direction": -1
     },
+    "right stick right": {
+      "axis": 3,
+      "direction": 1
+    },
+    "right stick up": {
+      "axis": 4,
+      "direction": -1
+    },
     "right trigger": {
-      "index": 7
+      "axis": 5,
+      "direction": 1
     },
     "start": {
-      "index": 9
+      "index": 7
     },
     "x": {
-      "index": 0
+      "index": 2
     },
     "y": {
       "index": 3
     }
   },
-  "name": "Logitech F310 (DirectInput) Firefox Windows",
+  "name": "XBone Chrome Linux",
   "supported": [
     {
-      "browser": "Firefox",
-      "id": "046d-c216-Logitech Dual Action",
-      "os": "Windows NT"
+      "browser": "Chrome",
+      "id": "Microsoft Controller (Vendor: 045e Product: 02d1)",
+      "os": "Linux"
     }
   ]
 }

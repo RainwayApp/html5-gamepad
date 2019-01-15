@@ -1,11 +1,12 @@
 import mappings from '../mappings'
+import * as R from 'typings'
 console.log(mappings)
 
 type GamepadID = Gamepad['id']
 type UserAgent = typeof navigator.userAgent
 
 export default class SingleGamepad {
-    mapping: RainwayGamepad.Mapping
+    mapping: R.Mapping
     constructor(public gamepad: Gamepad) {
         this.mapping = this.detectMapping(gamepad.id, navigator.userAgent)
     }
@@ -21,7 +22,7 @@ export default class SingleGamepad {
         return clone(mappings[0])
     }
 
-    axis(name: keyof RainwayGamepad.Axes) {
+    axis(name: keyof R.Axes) {
         var mapping = this.mapping.axes[name]
         if (!mapping) {
             return 0
@@ -68,7 +69,7 @@ export default class SingleGamepad {
         }
         return 0
     }
-    button(name: keyof RainwayGamepad.Buttons) {
+    button(name: keyof R.Buttons) {
         var mapping = this.mapping.buttons[name]
         if (!mapping) {
             return false
@@ -93,7 +94,7 @@ export default class SingleGamepad {
     }
 }
 
-function isCompatible(mapping: RainwayGamepad.Mapping, id: GamepadID, browser: UserAgent) {
+function isCompatible(mapping: R.Mapping, id: GamepadID, browser: UserAgent) {
     console.log(mapping)
     for (var i = 0; i < mapping.supported.length; i++) {
         var supported = mapping.supported[i]

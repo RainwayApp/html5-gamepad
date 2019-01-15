@@ -1,4 +1,4 @@
-{
+export default {
   "axes": {
     "dpad x": {
       "index": 6
@@ -12,53 +12,53 @@
     "left stick y": {
       "index": 1
     },
-    "right stick x": {
+    "left trigger": {
       "index": 2
     },
-    "right stick y": {
+    "right stick x": {
       "index": 3
     },
-    "left trigger": {
-      "buttonAnalog": 8
+    "right stick y": {
+      "index": 4
     },
     "right trigger": {
-      "buttonAnalog": 9
+      "index": 5
     }
   },
   "buttons": {
     "a": {
-      "index": 1
-    },
-    "b": {
       "index": 0
     },
+    "b": {
+      "index": 1
+    },
     "back": {
-      "index": 10
+      "index": 6
     },
     "dpad down": {
-      "axis": 6,
+      "axis": 7,
       "direction": 1
     },
     "dpad left": {
-      "axis": 7,
-      "direction": -1
-    },
-    "dpad right": {
-      "axis": 7,
-      "direction": 1
-    },
-    "dpad up": {
       "axis": 6,
       "direction": -1
     },
+    "dpad right": {
+      "axis": 6,
+      "direction": 1
+    },
+    "dpad up": {
+      "axis": 7,
+      "direction": -1
+    },
     "home": {
-      "index": 2
+      "index": 8
     },
     "left shoulder": {
-      "index": 6
+      "index": 4
     },
     "left stick": {
-      "index": 13
+      "index": 9
     },
     "left stick down": {
       "axis": 1,
@@ -77,46 +77,51 @@
       "direction": -1
     },
     "left trigger": {
-      "index": 8
+      "axis": 2,
+      "direction": 1
     },
     "right shoulder": {
-      "index": 7
+      "index": 5
     },
     "right stick": {
-      "index": 14
+      "index": 10
     },
     "right stick down": {
-      "axis": 3,
+      "axis": 4,
       "direction": 1
     },
     "right stick left": {
-      "axis": 2,
-      "direction": -1
-    },
-    "right stick right": {
-      "axis": 2,
-      "direction": 1
-    },
-    "right stick up": {
       "axis": 3,
       "direction": -1
     },
+    "right stick right": {
+      "axis": 3,
+      "direction": 1
+    },
+    "right stick up": {
+      "axis": 4,
+      "direction": -1
+    },
+    "right trigger": {
+      "axis": 5,
+      "direction": 1
+    },
     "start": {
-      "index": 11
+      "index": 7
     },
     "x": {
-      "index": 4
+      "index": 2
     },
     "y": {
       "index": 3
     }
   },
-  "name": "8Bitdo SN30 Pro CrOS",
+  "name": "Xbox 360 Firefox Linux",
   "supported": [
     {
-      "browser": "Chrome",
-      "id": "8Bitdo SN30 Pro (Vendor: 2dc8 Product: 6101)",
-      "os": "CrOS"
+      "browser": "Firefox",
+      "id": "045e-028e-Microsoft X-Box 360 pad",
+      "os": "Linux"
     }
   ]
 }

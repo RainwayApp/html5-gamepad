@@ -1,4 +1,4 @@
-{
+export default {
   "axes": {
     "dpad x": {
       "index": 6
@@ -13,51 +13,47 @@
       "index": 1
     },
     "left trigger": {
-      "index": 3
+      "index": 12
     },
     "right stick x": {
       "index": 2
     },
     "right stick y": {
-      "index": 5
+      "index": 3
     },
     "right trigger": {
-      "index": 4
+      "index": 13
     }
   },
   "buttons": {
     "a": {
-      "index": 1
+      "index": 14
     },
     "b": {
-      "index": 2
+      "index": 13
     },
     "back": {
-      "index": 8
+      "index": 0
     },
     "dpad down": {
-      "axis": 7,
-      "direction": 1
+      "index": 6
     },
     "dpad left": {
-      "axis": 6,
-      "direction": -1
+      "index": 7
     },
     "dpad right": {
-      "axis": 6,
-      "direction": 1
+      "index": 5
     },
     "dpad up": {
-      "axis": 7,
-      "direction": -1
-    },
-    "home": {
-      "index": 12
-    },
-    "left shoulder": {
       "index": 4
     },
+    "home": {
+      "index": 16
+    },
     "left stick": {
+      "index": 1
+    },
+    "left shoulder": {
       "index": 10
     },
     "left stick down": {
@@ -77,16 +73,13 @@
       "direction": -1
     },
     "left trigger": {
-      "index": 6
-    },
-    "right shoulder": {
-      "index": 5
+      "index": 8
     },
     "right stick": {
-      "index": 11
+      "index": 2
     },
     "right stick down": {
-      "axis": 5,
+      "axis": 3,
       "direction": 1
     },
     "right stick left": {
@@ -98,27 +91,30 @@
       "direction": 1
     },
     "right stick up": {
-      "axis": 5,
+      "axis": 3,
       "direction": -1
     },
     "right trigger": {
-      "index": 7
-    },
-    "start": {
       "index": 9
     },
+    "right shoulder": {
+      "index": 11
+    },
+    "start": {
+      "index": 3
+    },
     "x": {
-      "index": 0
+      "index": 15
     },
     "y": {
-      "index": 3
+      "index": 12
     }
   },
-  "name": "PS4 Firefox Linux",
+  "name": "054c-0268-Sony PLAYSTATION(R)3 Controller Firefox Linux",
   "supported": [
     {
       "browser": "Firefox",
-      "id": "054c-05c4-Sony Computer Entertainment Wireless Controller",
+      "id": "054c-0268-Sony PLAYSTATION(R)3 Controller",
       "os": "Linux"
     }
   ]

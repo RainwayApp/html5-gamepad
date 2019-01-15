@@ -1,21 +1,16 @@
-{
+export default {
   "axes": {
     "dpad x": {
-      "buttonPositive": 15,
-      "buttonNegative": 14
+      "index": 6
     },
     "dpad y": {
-      "buttonPositive": 13,
-      "buttonNegative": 12
+      "index": 7
     },
     "left stick x": {
       "index": 0
     },
     "left stick y": {
       "index": 1
-    },
-    "left trigger": {
-      "buttonPositive": 6
     },
     "right stick x": {
       "index": 2
@@ -24,7 +19,7 @@
       "index": 3
     },
     "right trigger": {
-      "buttonPositive": 7
+      "index": 5
     }
   },
   "buttons": {
@@ -112,11 +107,11 @@
       "index": 3
     }
   },
-  "name": "PS4 Chrome Linux",
+  "name": "Logitech F310 (XInput) Chrome Linux",
   "supported": [
     {
       "browser": "Chrome",
-      "id": "Sony Computer Entertainment Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
+      "id": "Logitech Gamepad F310 (STANDARD GAMEPAD Vendor: 046d Product: c21d)",
       "os": "Linux"
     }
   ]
