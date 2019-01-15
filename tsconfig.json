@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "allowJs": true,
+    "outDir": "./built",
+    "lib": ["es2017", "es6", "es5", "dom", "scripthost"],
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "baseUrl": "lib"
+  },
+  "include": ["./lib/**/*"],
+  "exclude": ["node_modules", "Ωtrash", "./built"]
+}
