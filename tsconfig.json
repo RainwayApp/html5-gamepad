@@ -7,9 +7,8 @@
     "outDir": "./built",
     "lib": ["es2017", "es6", "es5", "dom", "scripthost"],
     "module": "commonjs",
-    "experimentalDecorators": true,
-    "baseUrl": "lib"
+    "experimentalDecorators": true
   },
-  "include": ["./lib/**/*"],
+  "include": ["./lib/**/*", "./typings.d.ts"],
   "exclude": ["node_modules", "Ωtrash", "./built"]
 }
