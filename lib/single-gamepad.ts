@@ -1,6 +1,5 @@
 import mappings from '../mappings'
 import * as R from './typings'
-console.log(mappings)
 
 type GamepadID = Gamepad['id']
 type UserAgent = typeof navigator.userAgent
@@ -95,7 +94,6 @@ export default class SingleGamepad {
 }
 
 function isCompatible(mapping: R.Mapping, id: GamepadID, browser: UserAgent) {
-    console.log(mapping)
     for (var i = 0; i < mapping.supported.length; i++) {
         var supported = mapping.supported[i]
 
