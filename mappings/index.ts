@@ -20,7 +20,7 @@ import layout17 from './ps4-ff-linux'
 import layout18 from './ps4-ff-osx'
 import layout19 from './shitty-wheel'
 import layout20 from './sn30pro-chrome-cros'
-import { Mapping } from 'typings'
+import { Mapping } from '../lib/typings'
 
 const mappings: Mapping[] = [
     layout1,

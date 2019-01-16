@@ -1,5 +1,5 @@
 import mappings from '../mappings'
-import * as R from 'typings'
+import * as R from './typings'
 console.log(mappings)
 
 type GamepadID = Gamepad['id']
