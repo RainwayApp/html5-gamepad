@@ -120,6 +120,11 @@ export default {
       "browser": "Firefox",
       "id": "054c-05c4-Sony Computer Entertainment Wireless Controller",
       "os": "Linux"
+    },
+    {
+      "browser": "Firefox",
+      "id": "054c-09cc-Sony Computer Entertainment Wireless Controller",
+      "os": "Linux"
     }
   ]
 }

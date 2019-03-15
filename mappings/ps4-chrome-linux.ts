@@ -118,6 +118,11 @@ export default {
       "browser": "Chrome",
       "id": "Sony Computer Entertainment Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
       "os": "Linux"
+    },
+    {
+      "browser": "Chrome",
+      "id": "Sony Computer Entertainment Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 09cc)",
+      "os": "Linux"
     }
   ]
 }

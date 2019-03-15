@@ -118,6 +118,16 @@ export default {
       "browser": "Chrome",
       "id": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
       "os": "Mac OS X"
+    },
+    {
+      "browser": "Chrome",
+      "id": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 09cc)",
+      "os": "Windows NT"
+    },
+    {
+      "browser": "Chrome",
+      "id": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 09cc)",
+      "os": "Mac OS X"
     }
   ]
 }
