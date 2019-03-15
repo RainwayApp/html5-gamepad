@@ -94,18 +94,7 @@ export default class SingleGamepad {
 }
 
 function isCompatible(mapping: R.Mapping, id: GamepadID, browser: UserAgent) {
-    for (var i = 0; i < mapping.supported.length; i++) {
-        var supported = mapping.supported[i]
-
-        if (
-            id.indexOf(supported.id) !== -1 &&
-            browser.indexOf(supported.os) !== -1 &&
-            browser.indexOf(browser) !== -1
-        ) {
-            return true
-        }
-    }
-    return false
+    return mapping.supported.some(m => id.includes(m.id) && browser.includes(m.os))
 }
 
 function clone<T>(obj: T): T {
