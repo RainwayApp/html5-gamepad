@@ -22,6 +22,7 @@ export default class SingleGamepad {
     }
 
     axis(name: keyof R.Axes) {
+        this.gamepad = navigator.getGamepads()[this.gamepad.index]! // HOTFIX
         var mapping = this.mapping.axes[name]
         if (!mapping) {
             return 0
@@ -68,7 +69,9 @@ export default class SingleGamepad {
         }
         return 0
     }
+
     button(name: keyof R.Buttons) {
+        this.gamepad = navigator.getGamepads()[this.gamepad.index]! // HOTFIX
         var mapping = this.mapping.buttons[name]
         if (!mapping) {
             return false
