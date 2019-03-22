@@ -1,13 +1,19 @@
 import mappings from '../mappings'
 import * as R from './typings'
+import { friendlyGamepadName } from './friendly-name'
 
 type GamepadID = Gamepad['id']
 type UserAgent = typeof navigator.userAgent
 
+export type AxisName = keyof R.Axes
+export type ButtonName = keyof R.Buttons
+
 export default class SingleGamepad {
     mapping: R.Mapping
+    public friendlyName: string
     constructor(public gamepad: Gamepad) {
         this.mapping = this.detectMapping(gamepad.id, navigator.userAgent)
+        this.friendlyName = friendlyGamepadName(gamepad.id)
     }
 
     detectMapping(id: GamepadID, browser: UserAgent) {
@@ -21,7 +27,7 @@ export default class SingleGamepad {
         return clone(mappings[0])
     }
 
-    axis(name: keyof R.Axes) {
+    axis(name: AxisName) {
         this.gamepad = navigator.getGamepads()[this.gamepad.index]! // HOTFIX
         var mapping = this.mapping.axes[name]
         if (!mapping) {
@@ -70,7 +76,7 @@ export default class SingleGamepad {
         return 0
     }
 
-    button(name: keyof R.Buttons) {
+    button(name: ButtonName) {
         this.gamepad = navigator.getGamepads()[this.gamepad.index]! // HOTFIX
         var mapping = this.mapping.buttons[name]
         if (!mapping) {
