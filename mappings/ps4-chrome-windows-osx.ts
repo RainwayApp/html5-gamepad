@@ -18,9 +18,12 @@ export default {
     "right stick y": {
       "index": 3
     },
+    "left trigger": {
+      "buttonAnalog": 6
+    },
     "right trigger": {
-      "index": 5
-    }
+      "buttonAnalog": 7
+    },
   },
   "buttons": {
     "a": {
@@ -69,9 +72,6 @@ export default {
       "axis": 1,
       "direction": -1
     },
-    "left trigger": {
-      "index": 6
-    },
     "right shoulder": {
       "index": 5
     },
@@ -93,9 +93,6 @@ export default {
     "right stick up": {
       "axis": 3,
       "direction": -1
-    },
-    "right trigger": {
-      "index": 7
     },
     "start": {
       "index": 9
